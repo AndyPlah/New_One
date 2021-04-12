@@ -1,0 +1,159 @@
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\bin\Debug\Lab_ADO_Employees.exe.config
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\bin\Debug\Lab_ADO_Employees.exe
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\bin\Debug\Lab_ADO_Employees.pdb
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\MainWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\App.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees_MarkupCompile.cache
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees_MarkupCompile.lref
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\MainWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.g.resources
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.Properties.Resources.resources
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.csproj.GenerateResource.cache
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.csproj.CoreCompileInputs.cache
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.exe
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.pdb
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\MenuWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\MenuWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\DepartmentCardWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\DepartmentsWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EmployeeCardWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EmployeesWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\PositionsWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\SalaryWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Staff_TableWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\VacanciesWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\DepartmentCardWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\DepartmentsWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EmployeeCardWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EmployeesWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\PositionsWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\SalaryWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Staff_TableWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\VacanciesWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditEmployeeWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditEmployeeWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddEmplWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddEmplWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddDepWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddDepWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditDepartmentWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditDepartmentWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddPositionWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddPositionWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditPositionWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditPositionWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditSalaryWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditSalaryWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddStaffWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddStaffWindow.baml
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.csprojAssemblyReference.cache
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditStaffWindow.g.cs
+C:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditStaffWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\bin\Debug\Lab_ADO_Employees.exe.config
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\bin\Debug\Lab_ADO_Employees.exe
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\bin\Debug\Lab_ADO_Employees.pdb
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.csprojAssemblyReference.cache
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddDepWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddEmplWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddPositionWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddStaffWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\DepartmentCardWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\DepartmentsWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditDepartmentWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditEmployeeWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditPositionWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditSalaryWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditStaffWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EmployeeCardWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EmployeesWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\MainWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\MenuWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\PositionsWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\SalaryWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Staff_TableWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\VacanciesWindow.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\App.g.cs
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees_MarkupCompile.cache
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees_MarkupCompile.lref
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddDepWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddEmplWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddPositionWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddStaffWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\DepartmentCardWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\DepartmentsWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditDepartmentWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditEmployeeWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditPositionWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditSalaryWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditStaffWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EmployeeCardWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EmployeesWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\MainWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\MenuWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\PositionsWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\SalaryWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Staff_TableWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\VacanciesWindow.baml
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.g.resources
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.Properties.Resources.resources
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.csproj.GenerateResource.cache
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.csproj.CoreCompileInputs.cache
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.exe
+D:\Users\Dell Precision\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.pdb
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\bin\Debug\Lab_ADO_Employees.exe.config
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\bin\Debug\Lab_ADO_Employees.exe
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\bin\Debug\Lab_ADO_Employees.pdb
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddDepWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddEmplWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddPositionWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddStaffWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\DepartmentCardWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\DepartmentsWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditDepartmentWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditEmployeeWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditPositionWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditSalaryWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditStaffWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EmployeeCardWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EmployeesWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\MainWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\MenuWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\PositionsWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\SalaryWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Staff_TableWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\VacanciesWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\App.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees_MarkupCompile.cache
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees_MarkupCompile.lref
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddDepWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddEmplWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddPositionWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddStaffWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\DepartmentCardWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\DepartmentsWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditDepartmentWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditEmployeeWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditPositionWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditSalaryWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EditStaffWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EmployeeCardWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\EmployeesWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\MainWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\MenuWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\PositionsWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\SalaryWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Staff_TableWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\VacanciesWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.g.resources
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.Properties.Resources.resources
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.csproj.GenerateResource.cache
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.csproj.CoreCompileInputs.cache
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.exe
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.pdb
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\VacancyByDep.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\VacancyByDep.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\StaffByDepWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\StaffByDepWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddLoginWindow.g.cs
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\AddLoginWindow.baml
+C:\Users\plaha\source\repos\Lab_ADO_Employees\Lab_ADO_Employees\obj\Debug\Lab_ADO_Employees.csprojAssemblyReference.cache

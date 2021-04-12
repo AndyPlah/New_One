@@ -1,0 +1,50 @@
+﻿<Window x:Class="Lab_ADO_Employees.AddStaffWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_ADO_Employees"
+        mc:Ignorable="d"
+        Title="AddStaffWindow" Height="600" Width="550" >
+
+    <Grid Background="DarkGray">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="100*" />
+
+
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="PositionID" Grid.Column="0" Grid.Row="0" FontSize="20" TextAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Center" Height="34" Width="110" />
+        <TextBlock Text="Title" Grid.Column="0" Grid.Row="1" FontSize="20" TextAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Center" Height="34" Width="110" />
+        <TextBlock Text="Department" Grid.Column="0" Grid.Row="2" FontSize="20" TextAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Center" Height="34" Width="110" />
+        <TextBlock Text="Quantity" Grid.Column="0" Grid.Row="3" FontSize="20" TextAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Center" Height="34" Width="110" />
+        <TextBlock Text="Now" Grid.Column="0" Grid.Row="4" FontSize="20" TextAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Center" Height="34" Width="110" />
+        <TextBlock Text="Tariff" Grid.Column="0" Grid.Row="5" FontSize="20" TextAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Center" Height="34" Width="110" />
+
+
+
+        <TextBox x:Name="IdBox" Grid.Column="1" Grid.Row="0" FontSize="25" Width="200" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Height="35" />
+        <TextBox x:Name="titleBox" Grid.Column="1" Grid.Row="1" FontSize="25" Width="200" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Height="35" />
+        <ComboBox x:Name="depBox" Grid.Column="1" Grid.Row="2" FontSize="25" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Height="35" />
+        <ComboBox x:Name="quanBox" Grid.Column="1" Grid.Row="3" FontSize="25" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Height="35" />
+        <ComboBox x:Name="nowBox" Grid.Column="1" Grid.Row="4" FontSize="25" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Height="35" />
+        <TextBox x:Name="tariffBox" Grid.Column="1" Grid.Row="5" FontSize="25" Width="200" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Height="35" />
+
+
+
+        <Button x:Name="Add" Grid.Column="2" Grid.Row="1" Background="LightGray" Height="50" Content="Add" Width="100" VerticalAlignment="Bottom" Click="Add_Click" RenderTransformOrigin="0.5,0.508"/>
+        <Button x:Name="Cancel" Grid.Column="2" Grid.Row="4" IsCancel="True" Background="LightGray" Width="100" Height="50" Content="Cancel" VerticalAlignment="Top" Click="Cancel_Click" />
+
+    </Grid>
+</Window>

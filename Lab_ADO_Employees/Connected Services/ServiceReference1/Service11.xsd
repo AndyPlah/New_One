@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WCF_WEB_LAB_Server" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WCF_WEB_LAB_Server" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfMyEmployee">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MyEmployee" nillable="true" type="tns:MyEmployee" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMyEmployee" nillable="true" type="tns:ArrayOfMyEmployee" />
+  <xs:complexType name="MyEmployee">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EmployeeId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EmployeeName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyEmployee" nillable="true" type="tns:MyEmployee" />
+  <xs:complexType name="EmployeeCard">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Age" type="xs:int" />
+      <xs:element minOccurs="0" name="CardDepartment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CardEmployeeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CardPhone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CardPhoto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CardPosition" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EmployeeCard" nillable="true" type="tns:EmployeeCard" />
+  <xs:complexType name="ArrayOfMyDepartment">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MyDepartment" nillable="true" type="tns:MyDepartment" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMyDepartment" nillable="true" type="tns:ArrayOfMyDepartment" />
+  <xs:complexType name="MyDepartment">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Head" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IDdep" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoomNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyDepartment" nillable="true" type="tns:MyDepartment" />
+  <xs:complexType name="ArrayOfDepartmentCard">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DepartmentCard" nillable="true" type="tns:DepartmentCard" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDepartmentCard" nillable="true" type="tns:ArrayOfDepartmentCard" />
+  <xs:complexType name="DepartmentCard">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CardDepName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CardDepPhoto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CardDepPosition" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DepartmentCard" nillable="true" type="tns:DepartmentCard" />
+  <xs:complexType name="MyFullEmployee">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FAge" type="xs:int" />
+      <xs:element minOccurs="0" name="FDepId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FPassport" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FPhone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FPhoto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FPosId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyFullEmployee" nillable="true" type="tns:MyFullEmployee" />
+  <xs:complexType name="ArrayOfMyPosition">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MyPosition" nillable="true" type="tns:MyPosition" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMyPosition" nillable="true" type="tns:ArrayOfMyPosition" />
+  <xs:complexType name="MyPosition">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PosId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PosTariff" type="xs:double" />
+      <xs:element minOccurs="0" name="PosTitle" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyPosition" nillable="true" type="tns:MyPosition" />
+  <xs:complexType name="ArrayOfMySalary">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MySalary" nillable="true" type="tns:MySalary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMySalary" nillable="true" type="tns:ArrayOfMySalary" />
+  <xs:complexType name="MySalary">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Award" type="xs:double" />
+      <xs:element minOccurs="0" name="EmplName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Hours" type="xs:double" />
+      <xs:element minOccurs="0" name="SalEmpId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TariffFor" type="xs:double" />
+      <xs:element minOccurs="0" name="Total" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MySalary" nillable="true" type="tns:MySalary" />
+  <xs:complexType name="ArrayOfMyStaffTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MyStaffTable" nillable="true" type="tns:MyStaffTable" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMyStaffTable" nillable="true" type="tns:ArrayOfMyStaffTable" />
+  <xs:complexType name="MyStaffTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DepFor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdPosFor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Now" type="xs:int" />
+      <xs:element minOccurs="0" name="PositionFor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Quantity" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyStaffTable" nillable="true" type="tns:MyStaffTable" />
+  <xs:complexType name="ArrayOfMyVacancy">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MyVacancy" nillable="true" type="tns:MyVacancy" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMyVacancy" nillable="true" type="tns:ArrayOfMyVacancy" />
+  <xs:complexType name="MyVacancy">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="VacDep" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VacTitle" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyVacancy" nillable="true" type="tns:MyVacancy" />
+  <xs:complexType name="ArrayOfMyLogin">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MyLogin" nillable="true" type="tns:MyLogin" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMyLogin" nillable="true" type="tns:ArrayOfMyLogin" />
+  <xs:complexType name="MyLogin">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LoginId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyLogin" nillable="true" type="tns:MyLogin" />
+</xs:schema>

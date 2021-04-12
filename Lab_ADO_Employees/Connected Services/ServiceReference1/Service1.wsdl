@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://agassi1979-001-site1.gtempurl.com/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://agassi1979-001-site1.gtempurl.com/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://agassi1979-001-site1.gtempurl.com/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WCF_WEB_LAB_Server" />
+      <xsd:import schemaLocation="http://agassi1979-001-site1.gtempurl.com/Service1.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetArray_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetArray" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetArray_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetArrayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmployees_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployees" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmployees_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmployeeCard_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeeCard" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmployeeCard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeeCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchEmployee_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchEmployee" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchEmployee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDepartments_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartments" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDepartments_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDepsID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepsID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDepsID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepsIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPosID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPosID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPosID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPosIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDepartmentCard_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentCard" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDepartmentCard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteEmployee_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteEmployee" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteEmployee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddEmployee_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddEmployee" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddEmployee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetFullEmployee_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFullEmployee" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetFullEmployee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFullEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditEmployee_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditEmployee" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditEmployee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddDepartment_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddDepartment" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddDepartment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddDepartmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteDepartment_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDepartment" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteDepartment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDepartmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditDepartment_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditDepartment" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditDepartment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditDepartmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmployeesByDepId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeesByDepId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmployeesByDepId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeesByDepIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmployeesByPosId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeesByPosId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmployeesByPosId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeesByPosIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPositions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPositions" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPositions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPositionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditPosition_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditPosition" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditPosition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditPositionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSalary_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalary" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSalary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditSalary_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditSalary" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditSalary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditSalaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAvgSalary_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvgSalary" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAvgSalary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvgSalaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTotalSalary_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalSalary" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTotalSalary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalSalaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetStaffTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStaffTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetStaffTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStaffTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddStaff" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddPosition_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPosition" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddPosition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPositionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteStaff" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditStaff" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetVacancy_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVacancy" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetVacancy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVacancyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetVacancyByDepId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVacancyByDepId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetVacancyByDepId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVacancyByDepIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetStaffByDepId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStaffByDepId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetStaffByDepId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStaffByDepIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLogin" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CheckLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckLogin" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CheckLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddLogin" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddLogin_StringFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q1:string" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetArray">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetArray" message="tns:IService1_GetArray_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetArrayResponse" message="tns:IService1_GetArray_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployees">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetEmployees" message="tns:IService1_GetEmployees_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetEmployeesResponse" message="tns:IService1_GetEmployees_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeCard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetEmployeeCard" message="tns:IService1_GetEmployeeCard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetEmployeeCardResponse" message="tns:IService1_GetEmployeeCard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchEmployee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SearchEmployee" message="tns:IService1_SearchEmployee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SearchEmployeeResponse" message="tns:IService1_SearchEmployee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartments">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDepartments" message="tns:IService1_GetDepartments_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDepartmentsResponse" message="tns:IService1_GetDepartments_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepsID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDepsID" message="tns:IService1_GetDepsID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDepsIDResponse" message="tns:IService1_GetDepsID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPosID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPosID" message="tns:IService1_GetPosID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPosIDResponse" message="tns:IService1_GetPosID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentCard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDepartmentCard" message="tns:IService1_GetDepartmentCard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDepartmentCardResponse" message="tns:IService1_GetDepartmentCard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEmployee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteEmployee" message="tns:IService1_DeleteEmployee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteEmployeeResponse" message="tns:IService1_DeleteEmployee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddEmployee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddEmployee" message="tns:IService1_AddEmployee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddEmployeeResponse" message="tns:IService1_AddEmployee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFullEmployee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetFullEmployee" message="tns:IService1_GetFullEmployee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetFullEmployeeResponse" message="tns:IService1_GetFullEmployee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditEmployee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditEmployee" message="tns:IService1_EditEmployee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditEmployeeResponse" message="tns:IService1_EditEmployee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddDepartment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddDepartment" message="tns:IService1_AddDepartment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddDepartmentResponse" message="tns:IService1_AddDepartment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDepartment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteDepartment" message="tns:IService1_DeleteDepartment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteDepartmentResponse" message="tns:IService1_DeleteDepartment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditDepartment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditDepartment" message="tns:IService1_EditDepartment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditDepartmentResponse" message="tns:IService1_EditDepartment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeesByDepId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetEmployeesByDepId" message="tns:IService1_GetEmployeesByDepId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetEmployeesByDepIdResponse" message="tns:IService1_GetEmployeesByDepId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeesByPosId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetEmployeesByPosId" message="tns:IService1_GetEmployeesByPosId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetEmployeesByPosIdResponse" message="tns:IService1_GetEmployeesByPosId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPositions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPositions" message="tns:IService1_GetPositions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPositionsResponse" message="tns:IService1_GetPositions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditPosition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditPosition" message="tns:IService1_EditPosition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditPositionResponse" message="tns:IService1_EditPosition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSalary">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSalary" message="tns:IService1_GetSalary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSalaryResponse" message="tns:IService1_GetSalary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditSalary">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditSalary" message="tns:IService1_EditSalary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditSalaryResponse" message="tns:IService1_EditSalary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvgSalary">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAvgSalary" message="tns:IService1_GetAvgSalary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAvgSalaryResponse" message="tns:IService1_GetAvgSalary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalSalary">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetTotalSalary" message="tns:IService1_GetTotalSalary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetTotalSalaryResponse" message="tns:IService1_GetTotalSalary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStaffTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetStaffTable" message="tns:IService1_GetStaffTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetStaffTableResponse" message="tns:IService1_GetStaffTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddStaff" message="tns:IService1_AddStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddStaffResponse" message="tns:IService1_AddStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPosition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddPosition" message="tns:IService1_AddPosition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddPositionResponse" message="tns:IService1_AddPosition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteStaff" message="tns:IService1_DeleteStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteStaffResponse" message="tns:IService1_DeleteStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditStaff" message="tns:IService1_EditStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditStaffResponse" message="tns:IService1_EditStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVacancy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetVacancy" message="tns:IService1_GetVacancy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetVacancyResponse" message="tns:IService1_GetVacancy_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVacancyByDepId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetVacancyByDepId" message="tns:IService1_GetVacancyByDepId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetVacancyByDepIdResponse" message="tns:IService1_GetVacancyByDepId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStaffByDepId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetStaffByDepId" message="tns:IService1_GetStaffByDepId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetStaffByDepIdResponse" message="tns:IService1_GetStaffByDepId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetLogin" message="tns:IService1_GetLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetLoginResponse" message="tns:IService1_GetLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/CheckLogin" message="tns:IService1_CheckLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CheckLoginResponse" message="tns:IService1_CheckLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddLogin" message="tns:IService1_AddLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddLoginResponse" message="tns:IService1_AddLogin_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/AddLoginStringFault" name="StringFault" message="tns:IService1_AddLogin_StringFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetArray">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetArray" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployees">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetEmployees" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeCard">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetEmployeeCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchEmployee">
+      <soap:operation soapAction="http://tempuri.org/IService1/SearchEmployee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartments">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDepartments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepsID">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDepsID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPosID">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPosID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentCard">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDepartmentCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEmployee">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteEmployee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddEmployee">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddEmployee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFullEmployee">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetFullEmployee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditEmployee">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditEmployee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddDepartment">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddDepartment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDepartment">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteDepartment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditDepartment">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditDepartment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeesByDepId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetEmployeesByDepId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeesByPosId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetEmployeesByPosId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPositions">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPositions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditPosition">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditPosition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSalary">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSalary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditSalary">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditSalary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvgSalary">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAvgSalary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalSalary">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetTotalSalary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStaffTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetStaffTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddStaff">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPosition">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddPosition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteStaff">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditStaff">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVacancy">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetVacancy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVacancyByDepId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetVacancyByDepId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStaffByDepId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetStaffByDepId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogin">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckLogin">
+      <soap:operation soapAction="http://tempuri.org/IService1/CheckLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddLogin">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://agassi1979-001-site1.gtempurl.com/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
